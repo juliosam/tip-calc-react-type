@@ -13,6 +13,8 @@ export const App = () => {
 
   const [tipPercent,setTipPercent] = useState(0.15)
 
+  const reset = () => window.location.reload();
+
   return (
    <>
     <div className="App">
@@ -27,6 +29,7 @@ export const App = () => {
         <div className="output-area">
           <BillPerPerson bill={bill} payersNumber={payersNumber}/>
           <TipPerPerson bill={bill} payersNumber={payersNumber} tipPercent={tipPercent}/>
+          <button onClick={reset}>RESET</button>
         </div>
       </div>
     </div> 

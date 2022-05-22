@@ -252,19 +252,19 @@ body{
     height: 275px;
   }
 
-  .bill-input span{
+  .bill span{
     font-size: 14px;
   }
   
-  .bill-input p {
+  .bill p {
     top: 1px;
     right: 0px;
     font-size: 13px;
   }
   
-  .bill-input input{ width: 311px; height: 45px; font-size: 25px; padding-right: 20px;}
+  .bill input{ width: 311px; height: 45px; font-size: 25px; padding-right: 20px;}
 
-  .bill-input img{position: absolute; top: 43px; left: 18px; width: 12px;}
+  .bill img{position: absolute; top: 43px; left: 18px; width: 12px;}
 
   .percent-tip{width: 311px; height: 200px;}
   
@@ -285,7 +285,7 @@ body{
     padding-right: 30px;
   }
 
-  .input-people-num input{
+  .people-number input{
     width: 311px;
     height: 45px;
     border-radius: 6px;
@@ -293,14 +293,14 @@ body{
     padding-right: 20px;
   }
 
-  .input-people-num img{ top: 45px; left: 18px; width: 14px;}
+  .people-number img{ top: 45px; left: 18px; width: 14px;}
   
-  .input-people-num span{
+  .people-number span{
     margin: 27px 0 12px 0;
     font-size: 14px;
   }
   
-  .input-people-num p {
+  .people-number p {
     top: 2px;
     right: 0px;
     font-size: 12px;
@@ -313,11 +313,11 @@ body{
     margin-top: 35px;
   }
 
-  .tip-result output{
+  .tip-per-person output{
     font-size: 38px;
   }
 
-  .total-result output{
+  .bill-per-person output{
     font-size: 38px;
   }
   
