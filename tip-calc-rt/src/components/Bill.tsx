@@ -1,8 +1,14 @@
+import { Dispatch } from 'react'
+import {SetStateAction} from 'react'
+interface Props {
+    setBill:  Dispatch<SetStateAction<number>> }
 
+export const Bill = ({setBill}:Props) =>{
 
-export const Bill = () =>{
-
-    const bill = ()=> {console.log('not')}
+    const bill = (e:any)=> {
+        const cuenton = Number(e.target.value)
+        setBill(cuenton)
+    }
 
     return(
         <div className="bill">
@@ -11,3 +17,4 @@ export const Bill = () =>{
         </div>
     )
 }
+
